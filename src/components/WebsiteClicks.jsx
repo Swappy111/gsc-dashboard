@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from "recharts";
-import "./WebsiteClicks.css"; // Import CSS
+import "./WebsiteClicks.css";
 
 
 const WebsiteClicks = () => {

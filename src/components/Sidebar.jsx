@@ -12,30 +12,6 @@ const Sidebar = () => {
       </button>
       <hr />
 
-      {/* Sidebar Menu */}
-      {/* <ul className="sidebar-menu">
-        <li>
-          <i className="ri-search-line"></i> Search
-        </li>
-        <li>
-          <i className="ri-dashboard-line"></i> Dashboard
-        </li>
-        <li>
-          <i className="ri-file-list-line"></i> Reports
-        </li>
-        <li>
-          <i className="ri-line-chart-line"></i> Analytics
-        </li>
-        <li>
-          <i className="ri-tools-line"></i> Tools
-        </li>
-        <li>
-          <i className="ri-settings-3-line"></i> Settings
-        </li>
-        <li>
-          <i className="ri-logout-box-line"></i> Logout
-        </li>
-      </ul> */}
 
       {navData.map((item, i) => (
         <details key={i} style={{ marginBottom: "4px" }}>
@@ -75,7 +51,6 @@ const Sidebar = () => {
               listStyleType: "none",
               width: "100%",
               paddingInlineStart: "50px",
-              // gap: "0px",
               display: "flex",
               flexDirection: "column",
             }}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { RiAppsLine } from "react-icons/ri";
 import { FaCrown } from "react-icons/fa";
 
 const Navbar = () => {
@@ -27,9 +26,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Center - Menu */}
 
-        {/* Right Side - Profile & Plan */}
         <div className="navbar-right">
           <button className="plan-btn">
             <FaCrown className="crown-icon" /> My Plan

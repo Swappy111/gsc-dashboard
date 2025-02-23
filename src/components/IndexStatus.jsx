@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { BiInfoCircle } from "react-icons/bi";
 import {
   LineChart,
   Line,

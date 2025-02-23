@@ -1,8 +1,7 @@
-/* Sidebar container */
 .sidebar {
     width: 250px;
     height: 290vh;
-    background-color: #f8f9fa; /* Light Gray Background */
+    background-color: #f8f9fa; 
     transition: width 0.3s ease-in-out;
     position: relative;
     left: 0;
@@ -11,18 +10,15 @@
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Sidebar Closed State */
   .sidebar.closed {
     width: 70px;
   }
   
-  /* Sidebar Toggle Button */
   .sidebar-toggle {
     background: none;
     border: none;
     font-size: 24px;
     cursor: pointer;
-    /* position: absolute; */
     top: 15px;
     right: 10px;
     transition: transform 0.3s ease;
@@ -32,7 +28,6 @@
     transform: rotate(180deg);
   }
   
-  /* Sidebar Menu */
   .sidebar-menu {
     list-style: none;
     padding: 20px 0;
@@ -54,12 +49,10 @@
     background: rgba(0, 0, 0, 0.05);
   }
   
-  /* Sidebar icons */
   .menu-item i {
     font-size: 20px;
   }
   
-  /* Hide menu text when sidebar is closed */
   .sidebar.closed .menu-item span {
     display: none;
   }
@@ -68,7 +61,7 @@
     list-style: none;
   }
   
-  details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
-  details > summary::-webkit-details-marker /* Safari */ {
+  details > summary::marker, 
+  details > summary::-webkit-details-marker {
     display: none;
   }

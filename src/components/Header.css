@@ -39,7 +39,6 @@
     margin-left: 8px;
   }
   
- /* Date Container */
 .date-container {
   display: flex;
   padding-top: 10px;
@@ -47,24 +46,18 @@
   align-items: start;
 }
 
-/* Date Picker Box */
 .date-picker {
   display: flex;
   align-items: center;
-  /* background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.4); */
   padding: 0px;
 }
 
-/* Calendar Icon */
 .calendar-icon {
   color: white;
   margin-right: 8px;
   font-size: 14px;
 }
 
-/* Date Input Styling */
 .date-input {
   background: transparent;
   border: none;
@@ -78,21 +71,17 @@
   cursor: pointer;
 }
 
-/* Remove Default Date Picker Styles */
 .date-input:focus {
   outline: none;
 }
 
-/* Last 7 Days Label */
 .last-days {
   margin-left: 1px;
   font-size: 10px;
   font-weight: 600;
   color: white;
-  /* opacity: 0.8; */
 }
 
-/* Fieldset Styling */
 .date-container fieldset {
   border: 1px solid white;
   border-radius: 5px;
@@ -102,16 +91,14 @@
   margin-inline: 0px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align content to the left */
-  width: fit-content; /* Adjust width as per content */
+  align-items: flex-start; 
+  width: fit-content;
 }
 
-/* Legend Styling */
 .date-container legend {
   font-size: 12px;
   font-weight: 600;
   color: white;
-  /* padding: 0px 5px;  */
   text-align: left;
 }
 

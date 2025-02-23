@@ -46,7 +46,7 @@
   
   .projects-item.active,
   .menu-items li:hover {
-    background-color: #3D1D5A; /* Adjust according to the design */
+    background-color: #3D1D5A;
     color: white;
   }
   

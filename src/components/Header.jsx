@@ -15,11 +15,9 @@ const Header = () => {
     <div className="header-container">
       <div className="site-info">
         <img src="/assets/Group 1000002313.png" alt="Logo" className="site-logo" />
-        {/* <span className="site-name">Gbim.com</span> */}
       </div>
 
       <div className="title">
-        {/* <span>Google Search Console</span> */}
         <img src="/assets/Frame 1000008628.png" alt="GSC Icon" className="gsc-icon" />
       </div>
 
