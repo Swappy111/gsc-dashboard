@@ -154,25 +154,25 @@ const navData = [
     icon: " ri-file-search-line",
   },
   {
-    title: "Infinity",
-    icon: "ri-infinity-line",
+    title: "Meta",
+    icon: "ri-meta-fill",
   },
   {
     title: "Bar Chart 2 ",
-    icon: "ri-bar-chart-2-line",
+    icon: "ri-numbers-line",
   },
   {
-    title: "Lock",
-    icon: "ri-lock-line",
+    title: "Info",
+    icon: "ri-info-card-line",
+  },
+  {
+    title: "Wallet",
+    icon: "ri-wallet-3-line",
   },
 
   {
-    title: "Mail",
-    icon: "ri-mail-line",
-  },
-  {
-    title: "User",
-    icon: "ri-user-line",
+    title: "Robot",
+    icon: "ri-robot-2-line",
   },
   {
     title: "Log out",

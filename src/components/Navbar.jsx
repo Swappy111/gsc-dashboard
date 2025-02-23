@@ -16,9 +16,9 @@ const Navbar = () => {
           <div className="navbar-menu">
             <ul className="menu-items">
               <li className="projects-item active">
-                <i className="ri-apps-fill"></i>All Projects
+              <i class="ri-microsoft-fill"></i>All Projects
               </li>
-              <li><i className="ri-key-2-fill"></i>Keyword Research</li>
+              <li><i className="ri-key-fill"></i>Keyword Research</li>
               <li><i className="ri-bar-chart-2-fill"></i> Competitive Research</li>
               <li><i className="ri-file-text-line"></i>Website Audit</li>
               <li><i className="ri-file-search-line"></i> DM Captain Enterprise</li>
