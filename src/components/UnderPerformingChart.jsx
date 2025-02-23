@@ -43,9 +43,9 @@ const UnderPerformingChart = ({title}) => {
               cy="50%"
               innerRadius={60}
               outerRadius={100}
-              cornerRadius={5}
+              cornerRadius={8}
               fill="#8884d8"
-              paddingAngle={3}
+              paddingAngle={1}
               label={({ url, clicks }) => `${url.substring(0, 100)}-(${clicks})`}
             >
               {data.map((entry, index) => (
