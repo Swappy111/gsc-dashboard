@@ -1,0 +1,134 @@
+.header-container {
+    display: flex;
+    width: 92%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0d3b66, #0b3559);
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .site-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-logo {
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .site-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .gsc-icon {
+    width: auto;
+    height: 30px;
+    margin-left: 8px;
+  }
+  
+ /* Date Container */
+.date-container {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: start;
+}
+
+/* Date Picker Box */
+.date-picker {
+  display: flex;
+  align-items: center;
+  /* background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.4); */
+  padding: 0px;
+}
+
+/* Calendar Icon */
+.calendar-icon {
+  color: white;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+/* Date Input Styling */
+.date-input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 12px;
+  width: 90px;
+  padding: 0px;
+  padding-block: 0px;
+  padding-inline: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Remove Default Date Picker Styles */
+.date-input:focus {
+  outline: none;
+}
+
+/* Last 7 Days Label */
+.last-days {
+  margin-left: 1px;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  /* opacity: 0.8; */
+}
+
+/* Fieldset Styling */
+.date-container fieldset {
+  border: 1px solid white;
+  border-radius: 5px;
+  /* padding: 8px; */
+  padding-block: 0px;
+  padding-inline: 8px;
+  margin-inline: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  width: fit-content; /* Adjust width as per content */
+}
+
+/* Legend Styling */
+.date-container legend {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  /* padding: 0px 5px;  */
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

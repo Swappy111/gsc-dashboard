@@ -1,0 +1,102 @@
+/* Tabs Container */
+.tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    /* padding: 12px 20px; */
+    border-radius: 8px;
+}
+
+/* Tabs Section */
+.tabs {
+    display: flex;
+    gap: 15px;
+    border: 2px solid #e2d9ff;
+    border-radius: 10px;
+}
+
+.tab-button {
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #35054d;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #e2d9ff;
+    color: #35054d;
+    font-weight: bold;
+}
+
+.tab-button:hover {
+    background-color: #ddd;
+}
+
+/* Right Side Buttons */
+.buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Export Button */
+.export-button {
+    color: black;
+    background: #fff;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.export-button:hover {
+    background-color: #f3e8ff;
+}
+
+/* Share Button */
+.share-button {
+    color: white;
+    border-radius: 100px;
+    background-color: #3b82f6;
+}
+
+.share-button:hover {
+    background-color: #2563eb;
+}
+
+/* Power Button */
+.power-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.power-button:hover {
+    background-color: #dc2626;
+}
