@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Tabs.css";
-import { RiDownload2Fill, RiDownload2Line, RiShareForwardLine, RiShutDownLine } from "react-icons/ri";
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("Overview");
@@ -23,15 +22,14 @@ const Tabs = () => {
 
             <div className="buttons">
                 <button className="button export-button">
-                    <RiDownload2Fill />
+                <i class="ri-download-fill"></i>
                     <span>Export</span>
                 </button>
                 <button className="button share-button">
-                    <RiShareForwardLine />
-                    <span>Share</span>
+                    <i class="ri-share-fill"></i><span>Share</span>
                 </button>
                 <button className="power-button">
-                    <RiShutDownLine size={20} />
+                    <i class="ri-shut-down-line" style={{fontSize:"20px"}}></i>
                 </button>
             </div>
         </div>
